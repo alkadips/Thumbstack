@@ -385,6 +385,7 @@ img.code_black_24dp {
   margin-top: -8px;
 }
 .Rectangle-4897 {
+  width: 10px;
   height: 40px;
   margin: 0 32px 0 0;
   padding: 11px 698px 10.1px 17.9px;
@@ -430,7 +431,7 @@ img.code_black_24dp {
 }
 img.Group-21627 {
  
-  margin: 32px 24px 8px -42px;
+  margin: 32px 24px 8px -85px;
 }
 .login-div{
   margin: -30px 0 0 700px;
@@ -568,7 +569,7 @@ img.navigate_next_black_24dp {
   object-fit: contain;
 }
 .Rectangle-6534 {
-  width: 300px;
+  width: 308px;
   height: 300px;
   margin: -60px 0 0 0;
   padding: 31px 78px 39px 28px;
@@ -656,7 +657,7 @@ img.navigate_next_black_24dp {
   margin: 22px 0 0px -49px;
 }
 .Rectangle-6490 {
-  width: 275px;
+  width: 235px;
   height: 235px;
   margin: 49px 0 0 -24px;
   padding: 44px 24px 24px;
@@ -668,7 +669,7 @@ img.navigate_next_black_24dp {
 }
 
 .Rectangle-uncorrilated-analysys{
-  width: 275px;
+  width: 235px;
   height: 235px;
   margin: 40px 0 0 -24px;
   padding: 40px 24px 24px;
@@ -680,7 +681,7 @@ img.navigate_next_black_24dp {
 
 }
 .Rectangle-intraday{
-  width: 275px;
+  width: 235px;
   height: 235px;
   margin: 37px 0 0 -24px;
   padding: 44px 24px 24px;
@@ -866,7 +867,7 @@ img.star_rate_black_24dp {
   color: #3d3d3d;
 }
 .Rectangle-6502 {
-  width: 470px;
+  width: 400px;
   height: 260px;
   margin: 24px 28px 0 2px;
   padding: 20px 0 0;
@@ -910,7 +911,7 @@ img.Path-76976 {
 .Login {
   width: 38px;
   height: 20px;
-  margin: 9px 30px 11px 24px;
+  margin: 9px 30px 11px -30px;
   font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
@@ -937,7 +938,7 @@ img.Path-76976 {
 .Rectangle-5749 {
   width: 93px;
   height: 36px;
-  margin: -38px 0 4px 770px;
+  margin: -38px 0 4px 717px;
   padding: 8px 20px;
   border-radius: 30px;
   box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
@@ -1017,7 +1018,7 @@ img.Mask-Group-132 {
   padding: 8px 18px 8px 9px;
 }
 .Rectangle-6324 {
-  width: 275px;
+  width: 235px;
   height: 140px;
   margin: 48px 0 181px 0px;
   padding: 14px 24px 67px;
@@ -2830,7 +2831,7 @@ img.Group-26869 {
   object-fit: contain;
 }
 .Rectangle-6324-intraday {
-  width: 275px;
+  width: 235px;
   height: 140px;
   margin:45px 0 164px;
   padding: 25px 80px 3px 24px;
@@ -2839,16 +2840,16 @@ img.Group-26869 {
   background-color: #fff;
 }
 .Rectangle-6324-invester {
-  width: 211px;
+  width: 235px;
   height: 140px;
-  margin: 45px 0 0px 24px;
+  margin: 45px 0 0px 0px;
   padding: 25px 139px 67px 24px;
   border-radius: 20px;
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
   background-color: #fff;
 }
 .Rectangle-6490-invester {
-  width: 211px;
+  width: 235px;
   height: 255px;
   margin:28px 0 0 -24px;
   padding: 44px 0 24px 24px;
@@ -2879,7 +2880,7 @@ img.Group-25616-investigator {
   color: #000d4c;
 }
 .Rectangle-6324-uncorilated {
-  width: 275px;
+  width: 235px;
   height: 140px;
   margin: 46px 0 164px;
   padding: 25px 203px 67px 24px;
