@@ -581,7 +581,7 @@ img.navigate_next_black_24dp {
   overflow: hidden;
 }
 .market-data-syatem-wrapper{
-  margin-top: -5px;
+  margin-top: 20px;
 }
 .Algo-Strategies {
   width: 217px;
@@ -1695,6 +1695,55 @@ img.Group-26858 {
     top: -41px;
     right: -83px;
 }
+img.Group-25616 {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.order-man-wrapper{
+  margin: 21px 0 0 0;
+}
+.free-order-wrapper{
+  margin: -42px 0 1px 56px;
+}
+.Free-order {
+  width: 22px;
+  height: 15px;
+  opacity: 0.87;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #009161;
+  background: #c4dbc3;
+    border-radius: 20px;
+    padding: 5px 5px 5px 8px;
+}
+.Free-market {
+  width: 22px;
+  height: 15px;
+  opacity: 0.87;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #009161;
+  background: #c4dbc3;
+    border-radius: 20px;
+    padding: 5px 5px 5px 8px;
+
+}
+.free-market-wrapper{
+  margin: -46px 0 0 61px;
+}
 
 .Free {
   width: 24px;
@@ -2031,7 +2080,7 @@ img.star_rate_black_24dp-accuracy {
 .-Ratings {
   width: 70px;
   height: 17px;
-  margin: 3px 0 2px 11px;
+  margin: 3px 0 2px -12px;
   opacity: 0.48;
   font-family: Poppins;
   font-size: 12px;
@@ -2339,10 +2388,10 @@ img.Group-25734 {
   margin: 15px 0 0 10px;
 }
 
-.-Ratings {
+.-Ratings-investigator {
   width: 68px;
   height: 17px;
-  margin: 3px 0 2px -6px;
+  margin: -30px 0 0 100px;
   opacity: 0.48;
   font-family: Poppins;
   font-size: 11px;
@@ -2593,8 +2642,14 @@ img.Group-25740 {
   letter-spacing: normal;
   text-align: left;
   color: #000;
+  margin: -10px 0 0 0;
 }
-
+.min-investigator-wrapper{
+  margin: 20px 0 0 0;
+}
+.roi-investigator-wrapper{
+  margin: -37px 0 0 115px;
+}
 .k-Users-zfix {
   width: 54px;
   height: 17px;
@@ -2863,9 +2918,10 @@ img.Group-26869 {
   background-image: linear-gradient(to bottom, #fff 94%, #f9f9f9);
 }
 img.Group-25616-investigator {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
+  width: 84px;
+    height: 85px;
+    object-fit: contain;
+    margin: -72px 0 0 -22px;
 }
 .Long-term-Investor {
   width: 100px;
