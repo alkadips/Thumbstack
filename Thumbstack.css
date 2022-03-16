@@ -1680,17 +1680,20 @@ margin: -51px 24px 82px -51px;
     text-align: center;
 }
 img.Group-25858 {
-  width: 66px;
-  height: 67px;
-  object-fit: contain;
-  position: absolute;
-  top: -20px;
-  right: -20px;
+  width: 180px;
+    height: 137px;
+    object-fit: contain;
+    position: absolute;
+    top: -41px;
+    right: -70px;
 }
 img.Group-26858 {
-  width: 81px;
-  height: 63px;
-  object-fit: contain;
+  width: 217px;
+    height: 131px;
+    object-fit: contain;
+    position: absolute;
+    top: -41px;
+    right: -83px;
 }
 
 .Free {
