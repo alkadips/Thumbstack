@@ -586,7 +586,7 @@ img.navigate_next_black_24dp {
 .Algo-Strategies {
   width: 217px;
   height: 39px;
-  margin: 81px 58px 24px 2px;
+  margin: 81px 58px -25px 2px;
   font-family: Poppins;
   font-size: 28px;
   font-weight: 600;
@@ -758,7 +758,7 @@ img.navigate_next_black_24dp {
 .Plug-Play-Services {
   width: 284px;
   height: 39px;
-  margin: 80px 15px 24px 2px;
+  margin: 40px 0 0px 0px;
   font-family: Poppins;
   font-size: 28px;
   font-weight: 600;
@@ -843,7 +843,6 @@ img.star_rate_black_24dp {
 .How-to-use-our-APIs {
   width: 276px;
   height: 39px;
-  margin: 80px 23px 0 2px;
   font-family: Poppins;
   font-size: 28px;
   font-weight: 600;
@@ -854,10 +853,13 @@ img.star_rate_black_24dp {
   text-align: left;
   color: #000d4c;
 }
+.main-10-row{
+  margin: 75px 0 0 0;
+}
 .To-walk-you-through-every-step-of-the-process {
   width: 369px;
   height: 23px;
-  margin: 119px 129px 24px 2px;
+  margin: -10px 129px 5px 2px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: normal;
@@ -3027,11 +3029,10 @@ img.Group-25616-investigator {
   color: #000;
 }
 .Rectangle-5812 {
-  width: 1366px;
-  height: 300px;
-  padding: 79px 67px 89px 43px;
+  width: 1285px;
+height: 169px;
   background-color: #f9f9f9;
-  margin: 100px 0 0 0;
+  margin: 100px 0 0 -6px;
 }
 .IIFL-NovaTM {
   width: 69px;
@@ -3059,7 +3060,7 @@ img.Group-25616-investigator {
     letter-spacing: 0.24px;
     text-align: left;
     color: #565656;
-    margin: -19px 0 0 0;
+    margin: -19px 0 0 29px;
 }
 .footer-start-building{
   margin: 20px 0 0 100px;
@@ -3298,7 +3299,7 @@ img.Group-25616-investigator {
 img.Group-19665 {
   width: 191.9px;
   height: 60.3px;
-  margin: 0 110.1px 14.7px 0;
+  margin:0 110.1px 14.7px 30px;
   object-fit: contain;
 }
 .Rectangle-6011 {
