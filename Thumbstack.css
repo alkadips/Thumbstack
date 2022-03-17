@@ -667,11 +667,13 @@ img.navigate_next_black_24dp {
   box-shadow: 0 3px 32px 0 rgb(0 0 0 / 10%);
   background-image: linear-gradient(to bottom, #fff 94%, #f9f9f9);
 }
-
+.corner-div{
+  margin: -55px 0 0 88px;
+}
 .Rectangle-uncorrilated-analysys{
   width: 235px;
   height: 235px;
-  margin: 40px 0 0 -24px;
+  margin: -47px 0 0 -23px;
   padding: 40px 24px 24px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(30px);
@@ -683,7 +685,7 @@ img.navigate_next_black_24dp {
 .Rectangle-intraday{
   width: 235px;
   height: 235px;
-  margin: 37px 0 0 -24px;
+  margin: -34px 0 0 -24px;
   padding: 44px 24px 24px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(30px);
@@ -2061,11 +2063,48 @@ img.Path-76942 {
   color: #000;
 }
 .min-investment-wrapper{
-  margin: 15px 0 0 0;
+  margin: 20px 0 0 0;
+}
+.investor-corner{
+  margin: -27px 0 0 108px;
+}
+.Group-26869-investor{
+  width: 109.3px;
+  height: 76px;
+  object-fit: contain;
+}
+.tweel{
+  height: 17px;
+ 
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.thurti2{
+  height: 17px;
+ 
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
 }
 .by-empire-wrappr
 {
   margin: -30px 0 0 2px;
+}
+.hr-investment{
+  margin: 0px 0 0 0;
 }
 .high-accuracy-hr{
   margin: -12px 0 0 0;
@@ -2145,10 +2184,10 @@ img.Group-25616 {
   text-align: left;
   color: #000d4c;
 }
-.by-watch-Technologies {
+.by-watch-Technologies-algoskull {
   width: 139px;
   height: 17px;
-  margin: 2px 24px 0 0;
+  margin: 2px 24px 0 12px;
   opacity: 0.36;
   font-family: Poppins;
   font-size: 12px;
@@ -2442,10 +2481,10 @@ img.Group-26865 {
 .web-warpper{
   margin: 15px 0 0 11px;
 }
-.by-watch-Technologies {
+.by-watch-Technologies-unco {
   width: 139px;
   height: 17px;
-  margin: 1px 48px 31px 12px;
+  margin: 1px 48px 31px 0px;
   opacity: 0.25;
   font-family: Poppins;
   font-size: 12px;
@@ -2887,6 +2926,14 @@ img.Group-26869 {
   height: 140px;
   object-fit: contain;
 }
+.Group-26869-intraday{
+    width: 111.3px;
+    height: 104px;
+    object-fit: contain;
+}
+.intraday-corner{
+  margin: -33px 0 0 100px;
+}
 .Rectangle-6324-intraday {
   width: 235px;
   height: 140px;
@@ -2899,7 +2946,7 @@ img.Group-26869 {
 .Rectangle-6324-invester {
   width: 235px;
   height: 140px;
-  margin: 45px 0 0px 0px;
+  margin: 45px 0 0 0;
   padding: 25px 139px 67px 24px;
   border-radius: 20px;
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
@@ -2907,8 +2954,8 @@ img.Group-26869 {
 }
 .Rectangle-6490-invester {
   width: 235px;
-  height: 255px;
-  margin:28px 0 0 -24px;
+  height: 235px;
+  margin:-12px 0 0 -24px;
   padding: 44px 0 24px 24px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(30px);
@@ -2917,10 +2964,10 @@ img.Group-26869 {
   background-image: linear-gradient(to bottom, #fff 94%, #f9f9f9);
 }
 img.Group-25616-investigator {
-  width: 84px;
-    height: 85px;
+  width: 90px;
+    height: 90px;
     object-fit: contain;
-    margin: -72px 0 0 -22px;
+    margin: -89px 0 0 -22px;
 }
 .Long-term-Investor {
   width: 100px;
