@@ -2845,7 +2845,7 @@ img.Group-25694 {
 .Learn-Fintech-Development-at-your-own-pace {
   width: 168px;
   height: 40px;
-  margin: 12px 76px 10.2px 25px;
+  margin: 12px 76px 10.2px -4px;
   opacity: 0.6;
   font-family: Poppins;
   font-size: 12px;
@@ -3287,7 +3287,7 @@ img.Group-19665 {
 .Rectangle-6014-generate {
   width: 269px;
   height: 72px;
-    margin: -21px 0 0px 0;
+    margin: -13px 0 0px 0;
   padding: 16px 16px 16px 116px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(8px);
@@ -3328,10 +3328,10 @@ img.Group-19665 {
   text-align: left;
   color: #fff;
 }
-.Learn-Fintech-Development-at-your-own-pace {
+.Learn-Fintech-Development-at-your-own-pace-footer {
   width: 168px;
   height: 40px;
-  margin: 2px 0 18px;
+  margin: 7px 0 18px 27px;
   opacity: 0.6;
   font-family: Poppins;
   font-size: 12px;
