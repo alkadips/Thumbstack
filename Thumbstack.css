@@ -870,6 +870,7 @@ img.star_rate_black_24dp {
   width: 400px;
   height: 260px;
   margin: 24px 28px 0 2px;
+  border-radius: 20px;
   padding: 20px 0 0;
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
   background-image: linear-gradient(299deg,#11b9c8 25%, #c0f786 103% );
@@ -986,15 +987,13 @@ img.Path-76976 {
   height: 260px;
   margin: 0px 42px 35px 2px;
   border-radius: 20px;
-  background-image: linear-gradient(290deg, #ff7623 99%,  rgba(244, 92, 87, 0) 24%
-   
-  );
-  position: relative;
+  background-image: linear-gradient(to left, #ff7623,#f35e56 );
+
 }
 img.Mask-Group-132 {
-  width: 255px;
+  width: 253px;
     height: 333px;
-    margin: -72px 4px 0px -28px;
+    margin: -75px 4px 0px -28px;
     padding: 24px 50px 56px 23px;
     object-fit: contain;
     padding: 4px 0px 0 28px;
@@ -1002,7 +1001,7 @@ img.Mask-Group-132 {
 .Start-Learning {
   width: 140px;
   height: 27px;
-  margin: 3px 8px 0 0;
+  margin: 0 0 0 -15px;
   font-family: Poppins;
   font-size: 13px;
   font-weight: 600;
@@ -1014,7 +1013,7 @@ img.Mask-Group-132 {
   color: #06c;
   background: white;
   border-radius: 20px;
-  padding: 8px 18px 8px 9px;
+  padding: 8px 18px 29px 18px;
 }
 .Rectangle-6324 {
   width: 235px;
@@ -1181,8 +1180,10 @@ img.Group-21649 {
   padding: 16px 16px 16px 20px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(8px);
-  background-color: #ea34b2;
   margin-left: -25px;
+  background-image: linear-gradient( 
+310deg,#fff300 -19%, #ed0a86 98% );
+
 }
 .g-image-wrapper{
   margin: -55px 0 0 139px;
@@ -1213,7 +1214,7 @@ img.Group-21649 {
 .start-learning-burron{
   width: 14px;
     height: 14px;
-    margin: -15px 0 3px 96px;
+    margin: -25px 0 3px 89px;
     object-fit: contain;
 }
 img.Group-23244 {
@@ -1342,12 +1343,11 @@ img.Mask-Group-14436 {
   width: 400px;
   height: 68px;
   padding: 25px 32px 16px 36px;
-  border-radius: 17px;
   -webkit-backdrop-filter: blur(50px);
   backdrop-filter: blur(50px);
   background-color: #fff;
-  margin: 9px 0 0 -1px;
-  /* background-image: linear-gradient(299deg, #ff6000 103%, #a92fa4 25%); */
+  border-radius: 20px;
+    margin: 8px 0 0 -1px;
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
   background-image: linear-gradient(299deg,#11b9c8 25%, #c0f786 103% );
 }
@@ -1471,9 +1471,9 @@ img.east_black_24dp {
 }
 
 .Rectangle-5799 {
-  width: 387px;
+  width: 360px;
   height: 260px;
-  margin: 24px 28px 0 5px;
+  margin: 24px 28px 0 -50px;
   padding: 20px 0 0;
   border-radius: 20px;
   box-shadow: 0 3px 32px 0 rgb(0 0 0 / 8%);
@@ -1553,15 +1553,15 @@ img.bulb2 {
 .Rectangle-5803 {
   width: 225px;
     height: 68px;
-    margin: 50px 0 0;
+    margin: 54px 0 0;
     padding: 16px 16px 16px 91px;
     border-radius: 20px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    background-color: #d82626;
-}
+    background-image: linear-gradient(to left, #857a73,#f35e56 );
+  }
 .Rectangle-5800 {
-  width: 369px;
+  width: 360px;
   height: 59px;
   margin: 82px 0 0;
   padding: 16px 32px 16px 24px;
@@ -2858,11 +2858,11 @@ img.Group-25694 {
   color: #fff;
 }
 img.Group-25688 {
-  width: 51.1px;
-  height: 65.5px;
-  margin: 10.2px 192.9px 56.4px 25px;
-  object-fit: contain;
-  opacity: 2.42;
+  width: 82.1px;
+    height: 67.5px;
+    margin: -20px 0 0 21px;
+    object-fit: contain;
+    opacity: 2.42;
 }
 .How-to-Generate {
   font-family: Poppins;
@@ -3287,13 +3287,14 @@ img.Group-19665 {
 .Rectangle-6014-generate {
   width: 269px;
   height: 72px;
-    margin: -76px 0 0px 0;
+    margin: -21px 0 0px 0;
   padding: 16px 16px 16px 116px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  background-color: #1c2565;
-}
+  background-image: linear-gradient( 
+    224deg,#b176f2 16%, #f80078 128% );
+    }
   .Rectangle-6013-learn {
     width: 269px;
     height: 260px;
