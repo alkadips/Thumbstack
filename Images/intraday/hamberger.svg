@@ -1,0 +1,15 @@
+<svg id="menu_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #6d6a8d;
+      }
+    </style>
+  </defs>
+  <path id="Path_77005" data-name="Path 77005" class="cls-1" d="M0,0H24V24H0Z"/>
+  <path id="Path_77006" data-name="Path 77006" class="cls-2" d="M4.007,17.743H20.121a.979.979,0,1,0,0-1.957H4.007a.979.979,0,1,0,0,1.957Zm0-4.893H20.121a.979.979,0,1,0,0-1.957H4.007a.979.979,0,1,0,0,1.957ZM3,6.979a1,1,0,0,0,1.007.979H20.121a.979.979,0,1,0,0-1.957H4.007A1,1,0,0,0,3,6.979Z" transform="translate(-0.064 0.129)"/>
+</svg>

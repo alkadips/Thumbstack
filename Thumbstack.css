@@ -569,7 +569,7 @@ img.navigate_next_black_24dp {
   object-fit: contain;
 }
 .Rectangle-6534 {
-  width: 308px;
+  width: 100%;
   height: 300px;
   margin: -60px 0 0 0;
   padding: 31px 78px 39px 28px;
@@ -657,7 +657,7 @@ img.navigate_next_black_24dp {
   margin: 22px 0 0px -49px;
 }
 .Rectangle-6490 {
-  width: 235px;
+  width: 214px;
   height: 235px;
   margin: 49px 0 0 -24px;
   padding: 44px 24px 24px;
@@ -671,7 +671,7 @@ img.navigate_next_black_24dp {
   margin: -55px 0 0 88px;
 }
 .Rectangle-uncorrilated-analysys{
-  width: 235px;
+  width: 226px;
   height: 235px;
   margin: -47px 0 0 -23px;
   padding: 40px 24px 24px;
@@ -824,7 +824,7 @@ img.star_rate_black_24dp {
   margin: 10px 0 0 10px;
 }
 .Rectangle-4731 {
-  width: 215px;
+  width: 100%;
     height: 220px;
     margin: 24px 53px 104px 3px;
     padding: 9px 30px 5px 9px;
@@ -871,7 +871,7 @@ img.star_rate_black_24dp {
   color: #3d3d3d;
 }
 .Rectangle-6502 {
-  width: 400px;
+  width: 100%;
   height: 260px;
   margin: 24px 28px 0 2px;
   border-radius: 20px;
@@ -969,7 +969,7 @@ img.Path-76976 {
 }
 
 .Scooter {
-  width: 450px;
+  width: 100%;
   height: 260px;
   margin: 0 0 1px;
   padding: 24px 109px 92px 32px;
@@ -978,7 +978,7 @@ img.Path-76976 {
   background-image: linear-gradient(301deg, #0b60f3 20%, #1aa9d6 99%);
 }
 .Rectangle-5801 {
-  width: 240px;
+  width: 100%;
   height: 260px;
   margin: 0px 14px 16px -13px;
   padding: 27px 24px 23px;
@@ -987,7 +987,7 @@ img.Path-76976 {
   background-image: linear-gradient(310deg,#fff300 -19%, #ed0a86 98% );
 }
 .Rectangle-5789 {
-  width: 225px;
+  width: 100%;
   height: 260px;
   margin: 0px 42px 35px 2px;
   border-radius: 20px;
@@ -995,9 +995,9 @@ img.Path-76976 {
 
 }
 img.Mask-Group-132 {
-  width: 253px;
+  width: 242px;
     height: 333px;
-    margin: -75px 4px 0px -28px;
+    margin: -78px 4px 0px -28px;
     padding: 24px 50px 56px 23px;
     object-fit: contain;
     padding: 4px 0px 0 28px;
@@ -1005,7 +1005,7 @@ img.Mask-Group-132 {
 .Start-Learning {
   width: 140px;
   height: 27px;
-  margin: 0 0 0 -15px;
+  margin: 0 0 0 -28px;
   font-family: Poppins;
   font-size: 13px;
   font-weight: 600;
@@ -1020,9 +1020,9 @@ img.Mask-Group-132 {
   padding: 8px 18px 29px 18px;
 }
 .Rectangle-6324 {
-  width: 235px;
+  width: 109%;
   height: 140px;
-  margin: 48px 0 181px 0px;
+  margin: 48px 0 181px -14px;
   padding: 14px 24px 67px;
   border-radius: 20px;
   box-shadow: 0 3px 32px 0 rgb(0 0 0 / 8%);
@@ -1179,7 +1179,7 @@ img.Group-21649 {
   color: #fff;
 }
 .Rectangle-5802 {
-  width: 240px;
+  width: 127%;
   height: 68px;
   padding: 16px 16px 16px 20px;
   border-radius: 20px;
@@ -1209,7 +1209,7 @@ img.Group-21649 {
 .Rectangle-talent {
   width: 133px;
   height: 36px;
-  margin: -33px 0 0 73px;
+  margin: -33px 0 0 55px;
   padding: 9px 8px 11px 20px;
   border-radius: 30px;
   box-shadow: 0 6px 48px 0 rgb(28 28 28 / 8%);
@@ -1307,7 +1307,7 @@ img.Group-21681-footer-lean{
 
 }
 .Rectangle-learn-footer{
-  width: 269px;
+  width: 100%;
     height: 72px;
     margin: 35px 0 0px 0;
     padding: 16px 16px 16px 110px;
@@ -1359,7 +1359,7 @@ img.Mask-Group-14436 {
   object-fit: contain;
 }
 .Rectangle-6514 {
-  width: 553px;
+  width: 100%;
   height: 240px;
   margin: 35px 30px 80px 0;
   padding: 172px 0 0;
@@ -1371,7 +1371,7 @@ img.Mask-Group-14436 {
   background-color: #fff;
 }
 .Rectangle-5795 {
-  width: 553px;
+  width: 100%;
   height: 68px;
   padding: 25px 32px 16px 36px;
   border-radius: 17px;
@@ -1381,7 +1381,7 @@ img.Mask-Group-14436 {
   margin: -145px 0 0 -1px;
 }
 .blur-racktangle{
-  width: 400px;
+  width: 100%;
   height: 68px;
   padding: 25px 32px 16px 36px;
   -webkit-backdrop-filter: blur(50px);
@@ -1410,11 +1410,12 @@ img.Mask-Group-14436 {
 .Explore-right-api{
   background: white;
     padding: 11px 44px 9px 23px;
-    margin: 1px 2px 30ppx 29px;
     border-radius: 20px;
     color: blue;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
+    margin: -23px 94px 0px 345px;
+    width: 26%;
 }
 .explore-button-wrapper-api{
   margin: -17px 12px 0px 225px;
@@ -1512,8 +1513,8 @@ img.east_black_24dp {
 }
 
 .Rectangle-5799 {
-  width: 360px;
-  height: 260px;
+  width:  120%;
+  height: 242px;
   margin: 24px 28px 0 -50px;
   padding: 20px 0 0;
   border-radius: 20px;
@@ -1535,7 +1536,7 @@ img.Group-19733 {
   height: 25px;
   margin: 0 0 0 8px;
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -1564,7 +1565,7 @@ img.bulb2 {
   height: 43px;
   margin: 2.5px 22px 0 24px;
   font-family: Poppins;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -1592,7 +1593,7 @@ img.bulb2 {
   color: #fff;
 }
 .Rectangle-5803 {
-  width: 225px;
+  width: 100%;
     height: 68px;
     margin: 56px 0 0;
     padding: 16px 16px 16px 91px;
@@ -1602,9 +1603,9 @@ img.bulb2 {
     background-image: linear-gradient(to left, #857a73,#f35e56 );
   }
 .Rectangle-5800 {
-  width: 360px;
+  width: 100%;
   height: 59px;
-  margin: 82px 0 0;
+  margin: 67px ​0 0;
   padding: 16px 32px 16px 24px;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(8px);
@@ -1643,7 +1644,7 @@ img.bulb2 {
 img.east_black_24dp {
   width: 14px;
   height: 14px;
-  margin: 3px 0 3px 8px;
+  margin: 3px 0 3px -5px;
   object-fit: contain;
 }
 img.local_mall_black_24dp {
@@ -1690,11 +1691,14 @@ img.campaign_black_24dp-1 {
   backdrop-filter: blur(8px);
   background-color: #fff;
 }
-img.explore-button-arrow {
+/* img.explore-button-arrow {
   width: 14px;
   height: 14px;
   margin: -16px 3px -1px 306px;
   object-fit: contain;
+} */
+.sub-order-arrow{
+  margin: -18px 0 0  63px;
 }
 .discover-button-arrow{
   margin: -24px 0 0 300px;
@@ -1744,7 +1748,7 @@ img.Group-25616 {
   margin: 21px 0 0 0;
 }
 .free-order-wrapper{
-  margin: -42px 0 1px 56px;
+  margin:-82px 0 1px 56px;
 }
 .Free-order {
   width: 22px;
@@ -1782,9 +1786,13 @@ img.Group-25616 {
 
 }
 .free-market-wrapper{
-  margin: -46px 0 0 61px;
+  margin:-57px 0 0 61px;
 }
-
+img.Group-23484 {
+  width: 119px;
+  height: 147px;
+  margin: -63px 16px 0 -40px;
+}
 .Free {
   width: 24px;
   height: 16px;
@@ -2974,7 +2982,7 @@ img.Group-26869 {
   margin: -33px 0 0 100px;
 }
 .Rectangle-6324-intraday {
-  width: 235px;
+  width: 100%;
   height: 140px;
   margin:45px 0 164px;
   padding: 25px 80px 3px 24px;
@@ -2983,9 +2991,9 @@ img.Group-26869 {
   background-color: #fff;
 }
 .Rectangle-6324-invester {
-  width: 235px;
+  width: 100%;
   height: 140px;
-  margin: 45px 0 0 0;
+  margin: 45px 0 0 5px;
   padding: 25px 139px 67px 24px;
   border-radius: 20px;
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
@@ -3024,10 +3032,10 @@ img.Group-25616-investigator {
   color: #000d4c;
 }
 .Rectangle-6324-uncorilated {
-  width: 235px;
+  width: 109%;
   height: 140px;
   margin: 46px 0 164px;
-  padding: 25px 203px 67px 24px;
+  padding: 25px 203px 67px 19px;
   border-radius: 20px;
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
   background-color: #fff;
@@ -3066,7 +3074,7 @@ img.Group-25616-investigator {
   color: #000;
 }
 .Rectangle-5812 {
-  width: 1285px;
+  width: 100%;
 height: 169px;
   background-color: #f9f9f9;
   margin: 100px 0 0 -6px;
@@ -3355,7 +3363,7 @@ img.Group-19665 {
   margin: -28px 0 0 127px;
 }
 .Rectangle-6013 {
-  width: 269px;
+  width: 100%;
   height: 260px;
   margin: 24px 27px 0 -67.7px;
   padding: 21px 0 0;
@@ -3363,14 +3371,14 @@ img.Group-19665 {
   background-image: linear-gradient(224deg,#5e0db6 16%, #f80078 128% );
 }
 .main-learn-wrapper-footer {
-  width: 269px;
+  width: 100%;
   height: 260px;
   margin: 26px 0px 0 -30px;
   border-radius: 20px;
   background-image: linear-gradient(to left, #857a73,#f35e56 );
 }
 .Rectangle-6014-generate {
-  width: 269px;
+  width: 100%;
   height: 72px;
     margin: -13px 0 0px 0;
   padding: 16px 16px 16px 116px;
@@ -3400,7 +3408,7 @@ img.Group-19665 {
     background-color: #7e6eff;
 }
 .Learn {
-  margin: 1px 0 2px 25px;
+  margin: -323px 0 0 23px;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 600;
@@ -3410,6 +3418,15 @@ img.Group-19665 {
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+}
+.footer-module-wrapper{
+  margin-left: 70px;
+}
+.footer-image-wrapper{
+  margin-left: 70px;
+}
+.enterprices-footer{
+  margin-left: 60px;
 }
 .Learn-Fintech-Development-at-your-own-pace-footer {
   width: 168px;
@@ -3513,4 +3530,317 @@ img.Group-26413 {
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+}
+img.Group-25165 {
+  height: 108px;
+  margin: -46px 15px 0 -34px;
+}
+
+.Rectangle-5337 {
+  width: 360px;
+  height: 94px;
+  margin: 0 0 24px;
+  padding: 0 0 27px;
+  background-color: #fff;
+}
+.leftgly{
+  color: powderblue;
+    cursor: 1;
+    cursor: pointer;
+    float: right;
+    margin-right: -57px;
+}
+.carousel-control{
+  position: unset;
+}
+.carousel-inner{
+  margin: 27px 0 0 0;
+}
+.plus-icon{
+  order: 2px solid #433e3e;
+  border-radius: 50%;
+  margin: -23px 0 0 166px;
+  font-size: 17px;
+
+}
+.algo2-arrow{
+  margin: 0 0 0 45px;
+}
+.main-div-algo-gly{
+  margin-left: 867px;
+}
+img.Mask-Group-14361 {
+  width: 352px;
+  height: 310px;
+  margin: -35px 40px 45px -41px;
+  padding: 36px 79px 107.3px 30px;
+  object-fit: contain;
+}
+
+/* responsive design */
+@media only screen and (min-width: 768px) {
+  .Build-the-Future-of-Wealth-Technology{
+width: 10px;
+  }
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px){
+ 
+  .Build-the-Future-of-Wealth-Technology{
+    width: 20px;
+      }
+      .Rectangle-5802{
+        margin: 36px 0 0 -23px;
+    width: 109%;
+      }
+      .Rectangle-talent{
+        margin: -26px 0 0 375px;
+      }
+      .Rectangle-talent-arrow{
+        margin: -26px 0 0 485px;
+      }
+      .g-image-wrapper{
+        margin:-60px 0 0 450px;
+      }
+      .Rectangle-5801{
+        margin: 20px 0 0 0;
+      }
+      img.Mask-Group-132{
+        margin: 10px;
+      }
+      .Rectangle-5799{
+        margin: 0;
+      }
+      img.bulb1{
+        margin: -87px 0 0 422px;
+    width: 49px;
+      }
+      img.bulb2{
+margin: -111px 0 0 1px;
+width: 40px;
+      }
+      .Have-the-next-Big-Idea{
+        margin-top: 15px;
+      }
+      .Make-a-big-splash-on-the-Fintech-scene{
+        margin-top: -18px;
+      }
+      .Discover{
+
+      }
+      .discover-button{
+        margin: -35px 0 0 392px;
+      }
+      .discover-button-arrow{
+        margin: -24px ​0 0 475p;
+        margin-left: 476px;
+      }
+      .Rectangle-6534{
+        margin-top: 10px;
+      }
+      .Rectangle-6490{
+        width: 110%;
+      }
+      .corner-div{
+        margin-left: 400px;
+      }
+      .Rectangle-uncorrilated-analysys{
+        width: 171%;
+      }
+      .Rectangle-6324-intraday{
+
+      }
+      .intraday-corner{
+        margin-left: 412px;
+      }
+      .Rectangle-intraday{
+        width: 124%;
+      }
+      .investor-corner{
+        margin-left: 422px;
+      }
+      .Rectangle-6490-invester{
+        width: 143%;
+      }
+      .Plug-Play-Services{
+        margin-top: 240px;
+      }
+      img.Group-26408{
+        margin-left: 480px;
+      }
+      .explore-button-wrapper-api{
+
+      }
+      img.explore-button-arrow-bottom{
+        float: right;
+        margin-right: 32px;
+        margin-top: -25px;
+      }
+      .Rectangle-6013{
+        margin: 0;
+        margin-top: 25px;
+      }
+      .How-to-Generate{
+        width: 36%;
+    float: right;
+      }
+      .how-to-generate-arrow{
+        float: right;
+        margin-top: 11px;
+        margin-right: 8px;
+      }
+      .main-learn-wrapper-footer{
+        margin: 0;
+    margin-top: 25px;
+      }
+      .Learn-Algo-Trading{
+        float: right;
+        width: 40%;
+      }
+      .learn-algo-arrow{
+        float: right;
+        margin: 11px -142px 0 0;
+      }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .Rectangle-5802{
+    margin:6px 0 0 -23px;
+    width: 128%;
+  }
+  .How-to-Generate{
+    width: 178%;
+  }
+  .Rectangle-6324-intraday{
+    margin-left: 12px;
+  }
+  .Learn-Algo-Trading{
+    width: 171%;
+    margin: -1px;
+  }
+  .learn-algo-arrow{
+margin: -24px 0 0 0px;
+  }
+  .Rectangle-talent{
+    margin: -26px 0 0 67px;
+    width: 110px;
+  }
+  .Rectangle-5801{
+    margin: 0;
+  }
+  .Rectangle-talent-arrow{
+    margin: -26px 0 0 164px;
+
+  }
+   .g-image-wrapper{
+        margin:-63px 0 0 127px;
+      }
+      .Rectangle-6490{
+        width: 126%;
+      }
+      .Rectangle-uncorrilated-analysys{
+        width: 233px;
+        margin: -48 0 0 -19px;
+      }
+      .corner-div{
+        margin-left: 80px;
+      }
+      .intraday-corner{
+        margin-left: 80px;
+      }
+      .Rectangle-intraday{
+        width: 197%;
+      }
+      .investor-corner{
+        margin-left: 90px;
+      }
+      .Rectangle-6490-invester{
+        width: 421%;
+    height: 228px;
+      }
+      img.Mask-Group-132{
+        margin: -79px 0 0 -28px;
+      }
+      .Rectangle-5803{
+        margin-top: 60px;
+      }
+      .Rectangle-5795{
+        width: 106%;
+      }
+      img.explore-button-arrow{
+        
+      }
+      .Explore-right-api{
+        margin: -10px 0 0 0;
+    width: 30%;
+    float: right;
+      }
+      img.explore-button-arrow-bottom{
+        margin: 5px -100px 0;
+      }
+      img.bulb1{
+        margin:-91px 0 0 285px;
+    width: 40px;
+      }
+      img.bulb2{
+        margin: -120px 0 0 316px;
+        width: 30px;
+      }
+      .Make-a-big-splash-on-the-Fintech-scene{
+        margin-top: -30px;
+      }
+      .discover-button{
+margin: -33px 0 0 195px;
+      }
+      .discover-button-arrow{
+        margin: -23px 0 0 277px;
+      }
+      .Rectangle-5799{
+        margin: 32px 0 0 -50px;
+      }
+      .Rectangle-5800{
+        margin-top: 74px;
+      }
+      img.Group-26408{
+        margin-left: 410px;
+      }
+      .Plug-Play-Services{
+        margin-top: 10px;
+      }
+ }
+@media only screen and (min-width: 600px) {
+ 
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="204" viewBox="0 0 204 204">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #e7e7e7;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #eb002e;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_6002);
+      }
+    </style>
+    <filter id="Rectangle_6002" x="0" y="0" width="204" height="204" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_25165" data-name="Group 25165" transform="translate(48 45)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -48, -45)">
+      <g id="Rectangle_6002-2" data-name="Rectangle 6002" class="cls-1" transform="translate(48 45)">
+        <rect class="cls-4" width="108" height="108" rx="20"/>
+        <rect class="cls-2" x="0.5" y="0.5" width="107" height="107" rx="19.5"/>
+      </g>
+    </g>
+    <g id="dns_black_24dp" transform="translate(97.646 97.646) rotate(180)">
+      <path id="Path_53135" data-name="Path 53135" class="cls-2" d="M0,0H87.292V87.292H0Z"/>
+      <path id="Path_53136" data-name="Path 53136" class="cls-3" d="M44.444,27.778H5.556A5.572,5.572,0,0,0,0,33.333V44.444A5.572,5.572,0,0,0,5.556,50H44.444A5.572,5.572,0,0,0,50,44.444V33.333A5.572,5.572,0,0,0,44.444,27.778ZM11.111,44.444a5.556,5.556,0,1,1,5.556-5.556A5.572,5.572,0,0,1,11.111,44.444ZM44.444,0H5.556A5.572,5.572,0,0,0,0,5.556V16.667a5.572,5.572,0,0,0,5.556,5.556H44.444A5.572,5.572,0,0,0,50,16.667V5.556A5.572,5.572,0,0,0,44.444,0ZM11.111,16.667a5.556,5.556,0,1,1,5.556-5.556A5.572,5.572,0,0,1,11.111,16.667Z" transform="translate(18.646 18.646)"/>
+    </g>
+  </g>
+</svg>
