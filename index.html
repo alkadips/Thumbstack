@@ -26,9 +26,51 @@
 
 <body>
   <div class="container">
-  
 
-    <div class="row">
+    <button id="hamburger-menu" data-toggle="ham-navigation" class="hamburger-menu-button"><span class="hamburger-menu-button-open">Menu</span></button>
+    <nav id="ham-navigation" class="ham-menu">
+      <ul class="menu">
+          <div class="start-wrapper">
+            <span class="START-BUILDING"> START BUILDING </span>
+          </div>
+  
+        
+          <div class="api-kits-mobile">
+            <img src="Images/icon.svg" class="cable_white_24dp-mobile" />
+            <span class="API-Kits"> API Kits </span>
+          </div>
+      
+        
+          <div class="dev-mobile">
+            <img src="Images/icon2.svg" class="description_black_24dp-1-mobile" />
+  
+            <span class="Dev-Docs-mobile"> Dev Docs </span>
+          </div>
+          <div class="forum-div-mobile">
+            <img src="Images/forum.svg" class="forum_black_24dp-mobile" />
+            <span class="Forums-mobile"> Forums </span>
+          </div>
+  
+          <div class="guide-div-mobile">
+            <img src="Images/guide.svg" class="integration_instructions_black_24dp-mobile" />
+            <span class="Guides-mobile"> Guides </span>
+          </div>
+        
+          <div class="start-wrapper-mobile">
+            <span class="NOVA-STORE-mobile"> NOVA STORE </span>
+          </div>
+        <div class="shop-mobile-wrapper">
+          <img src="Images/shop.svg" class="shop-icon-mobile" />
+          <div class="Shop-mobile"> Shop </div>
+        </div>
+        <div class="build-div-mobile">
+          <img src="Images/build.svg" class="build-earn-mobile-icon" />
+          <span class="Build-Earn-mobile"> Build & Earn </span>
+        </div>
+       
+      </ul>
+    </nav>
+    <div class="row logo-class" >
       <div class="col-md-3">
         <img src="Images/main-logo.png" class="Group-21628 responsive" />
       </div>
@@ -53,7 +95,7 @@
     </div>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2 sidebar-wrapper">
         <div class="start-wrapper">
           <span class="START-BUILDING"> START BUILDING </span>
         </div>
@@ -284,31 +326,37 @@
             <span class="All"> All </span>
           </div>
           <div class="col-md-2">
-            <span class="Algo-Trading-build"> Algo-Trading </span>
+            <div class="Algo-Trading-build"> Algo-Trading </div>
           </div>
-          <div class="col-md-2 algo-enterprice-build-wrapper">
-            <span class="Algo-Enterprise">
+          <div class="col-md-2 ">
+            <div class="Algo-Enterprise">
               Algo-Enterprise
-            </span>
+            </div>
           </div>
           <div class="col-md-2">
-            <span class="Fintech-Platform">
+            <div class="Fintech-Platform">
               Fintech Platform
-            </span>
+            </div>
           </div>
           <div class="col-md-2">
-            <span class="Fintech-Enterprise">
+            <div class="Fintech-Enterprise">
               Fintech Enterprise
-            </span>
+            </div>
           </div>
           <div class="col-md-1"></div>
           <div class="main-arrow-glypgicon">
             <div class="col-md-1 ">
-              <span class="glyphicon glyphicon-chevron-left  leftgly"></span>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left leftgly-gly"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+
             </div>
             <div class="col-md-1">
-              <span class="glyphicon glyphicon-chevron-right leftgly"></span>
-
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <div class="glyphicon glyphicon-chevron-right right-gly"></div>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
 
@@ -693,12 +741,17 @@
         </div>
 
         <div class="Algo-Strategies"> Algo Strategies </div>
-        <div class="main-div-algo-gly">
-          <span class="glyphicon glyphicon-chevron-left algo1-arrow "></span>
+        <!-- <div class="main-div-algo-gly">
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left algo1-arrow"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right algo2-arrow"></span>
+            <span class="sr-only">Next</span>
+          </a>
 
-          <span class="glyphicon glyphicon-chevron-right  algo2-arrow"></span>
-
-        </div>
+        </div> -->
 
 
 
@@ -711,656 +764,654 @@
             <div class="carousel-inner">
               <div class="item active">
 
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-6324">
-              <div class="Rectangle-6490">
-                <div class="accuracy--image-wrapper">
-                  <img src="Images/high-accuracy/accuracy1.svg" class="Group-26870" />
-                </div>
-                <div>
-                  <span class="High-Accuracy-Trends">
-                    High Accuracy
-                    <div class="High-Accuracy-Trends">Trends</div>
-                  </span>
-                </div>
-                <div class="by-empire-wrappr">
-                  <span class="by-Empire-pvt-ltd"> by Empire pvt ltd </span>
-                </div>
-                <div class="min-investment-wrapper">
-                  <div>
-                    <span class="Min-Investment"> Min Investment </span>
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324">
+                    <div class="Rectangle-6490">
+                      <div class="accuracy--image-wrapper">
+                        <img src="Images/high-accuracy/accuracy1.svg" class="Group-26870" />
+                      </div>
+                      <div>
+                        <span class="High-Accuracy-Trends">
+                          High Accuracy
+                          <div class="High-Accuracy-Trends">Trends</div>
+                        </span>
+                      </div>
+                      <div class="by-empire-wrappr">
+                        <span class="by-Empire-pvt-ltd"> by Empire pvt ltd </span>
+                      </div>
+                      <div class="min-investment-wrapper">
+                        <div>
+                          <span class="Min-Investment"> Min Investment </span>
+                        </div>
+                        <div>
+                          <span class="span35"> ₹ 15,000 </span>
+                        </div>
+                      </div>
+                      <div class="roi-wrapper">
+                        <div>
+                          <span class="ROI"> ROI </span>
+                        </div>
+
+                        <div>
+                          <span class="span35"> 35.00% </span>
+                        </div>
+                      </div>
+                      <div class="high-accuracy-hr">
+                        <hr />
+                      </div>
+                      <div>
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                      </div>
+                      <div class="two-ratings-wrapper-accuracy">
+                        <span class="-Ratings"> 200 Ratings </span>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <span class="span35"> ₹ 15,000 </span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324-uncorilated">
+
+                    <div class="corner-div">
+                      <img src="Images/uncorelated/corner.svg" class="Group-26869">
+
+                    </div>
+                    <div class="Rectangle-uncorrilated-analysys">
+                      <div>
+                        <img src="Images/uncorelated/uncorelated-icon.svg" class="Group-25616" />
+                        <div class="uncorrilated-wrapper">
+                          <span class="The-Uncorrelated-Analysis">
+                            The Uncorrelated
+                            <div class="The-Uncorrelated-Analysis"></div>
+                            Analysis
+                          </span>
+                        </div>
+                        <div>
+                          <span class="by-watch-Technologies-unco">
+                            by watch Technologies
+                          </span>
+                        </div>
+                        <div class="uncorelated-investment-wrapper">
+                          <div>
+                            <span class="Min-Investment"> Min Investment </span>
+                          </div>
+                          <div>
+                            <span class="span36"> ₹ 12,000 </span>
+                          </div>
+                        </div>
+
+                        <div class="uncorilated-roi-wrapper">
+                          <span>
+                            <span class="ROI-uncorelated"> ROI </span>
+                          </span>
+                          <div>
+                            <span class="span36"> 36.00% </span>
+                          </div>
+                        </div>
+                        <div class="uncorelated-hr-wrapper">
+                          <hr />
+                        </div>
+                        <div>
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        </div>
+                        <div class="rating27-wrapper">
+                          <span class="-Ratings27"> 27 Ratings </span>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
-                <div class="roi-wrapper">
-                  <div>
-                    <span class="ROI"> ROI </span>
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324-intraday">
+                    <div class="intraday-corner">
+                      <img src="Images/intraday/intraday-corner.svg" class="Group-26869-intraday">
+                    </div>
+                    <div class="Rectangle-intraday">
+                      <div>
+                        <img src="Images/intraday.svg" class="Group-25616" />
+                      </div>
+                      <div class="intraday-volati-wrapper">
+                        <span class="Intraday-Volatility">
+                          Intraday Volatility
+                        </span>
+                      </div>
+
+                      <div>
+                        <span class="by-ICDA-Tech"> by ICDA Tech </span>
+                      </div>
+                      <div class="min-in-intraday-wrapper">
+                        <div>
+                          <span class="Min-Investment"> Min Investment </span>
+                        </div>
+                        <div>
+                          <span class="span12"> ₹ 20,000 </span>
+                        </div>
+                      </div>
+                      <div class="roi-intraday-wrapper">
+                        <div>
+                          <span class="ROI-intraday"> ROI </span>
+                        </div>
+
+                        <span>
+                          <span class="span12"> 12.00% </span>
+                        </span>
+                      </div>
+                      <div class="intraday-hr-wrapper">
+                        <hr />
+                      </div>
+                      <div>
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" /><img
+                          src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/intraday/halfstar.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                      </div>
+                      <div class="k-Ratings-intraday-wrapper">
+                        <span class="k-Ratings-intraday"> 2k Ratings </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324-invester">
+                    <div class="investor-corner">
+                      <img src="Images/intraday/investor.svg" class="Group-26869-investor">
+                    </div>
+                    <div class="Rectangle-6490-invester">
+                      <div><img src="Images/investigator.svg" class="Group-25616-investigator"></div>
+                      <div>
+                        <div class="Long-term-Investor">
+                          Long term
+                          Investor
+                        </div>
+                      </div>
+                      <div class="by-ICDA-Tech">
+                        by ICDA Tech
+                      </div>
+                      <div class="min-investigator-wrapper">
+                        <div class="Min-Investment">
+                          Min Investment
+                        </div>
+                        <div class="tweel">
+                          ₹ 1,20,000
+                        </div>
+                      </div>
+
+                      <div class="roi-investigator-wrapper">
+                        <div class="ROI">
+                          ROI
+                        </div>
+                        <div class="thurti2">
+                          32.00%
+                        </div>
+                      </div>
+                      <div class="hr-investment">
+                        <hr>
+                      </div>
+                      <div>
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/white-star.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                      </div>
+                      <div class="-Ratings-investigator">
+                        272 Ratings
+                      </div>
+                    </div>
+
                   </div>
 
-                  <div>
-                    <span class="span35"> 35.00% </span>
+                </div>
+              </div>
+              <div class="item ">
+
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324">
+                    <div class="Rectangle-6490">
+                      <div class="accuracy--image-wrapper">
+                        <img src="Images/high-accuracy/accuracy1.svg" class="Group-26870" />
+                      </div>
+                      <div>
+                        <span class="High-Accuracy-Trends">
+                          High Accuracy
+                          <div class="High-Accuracy-Trends">Trends</div>
+                        </span>
+                      </div>
+                      <div class="by-empire-wrappr">
+                        <span class="by-Empire-pvt-ltd"> by Empire pvt ltd </span>
+                      </div>
+                      <div class="min-investment-wrapper">
+                        <div>
+                          <span class="Min-Investment"> Min Investment </span>
+                        </div>
+                        <div>
+                          <span class="span35"> ₹ 15,000 </span>
+                        </div>
+                      </div>
+                      <div class="roi-wrapper">
+                        <div>
+                          <span class="ROI"> ROI </span>
+                        </div>
+
+                        <div>
+                          <span class="span35"> 35.00% </span>
+                        </div>
+                      </div>
+                      <div class="high-accuracy-hr">
+                        <hr />
+                      </div>
+                      <div>
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                      </div>
+                      <div class="two-ratings-wrapper-accuracy">
+                        <span class="-Ratings"> 200 Ratings </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="high-accuracy-hr">
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324-uncorilated">
+
+                    <div class="corner-div">
+                      <img src="Images/uncorelated/corner.svg" class="Group-26869">
+
+                    </div>
+                    <div class="Rectangle-uncorrilated-analysys">
+                      <div>
+                        <img src="Images/uncorelated/uncorelated-icon.svg" class="Group-25616" />
+                        <div class="uncorrilated-wrapper">
+                          <span class="The-Uncorrelated-Analysis">
+                            The Uncorrelated
+                            <div class="The-Uncorrelated-Analysis"></div>
+                            Analysis
+                          </span>
+                        </div>
+                        <div>
+                          <span class="by-watch-Technologies-unco">
+                            by watch Technologies
+                          </span>
+                        </div>
+                        <div class="uncorelated-investment-wrapper">
+                          <div>
+                            <span class="Min-Investment"> Min Investment </span>
+                          </div>
+                          <div>
+                            <span class="span36"> ₹ 12,000 </span>
+                          </div>
+                        </div>
+
+                        <div class="uncorilated-roi-wrapper">
+                          <span>
+                            <span class="ROI-uncorelated"> ROI </span>
+                          </span>
+                          <div>
+                            <span class="span36"> 36.00% </span>
+                          </div>
+                        </div>
+                        <div class="uncorelated-hr-wrapper">
+                          <hr />
+                        </div>
+                        <div>
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        </div>
+                        <div class="rating27-wrapper">
+                          <span class="-Ratings27"> 27 Ratings </span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324-intraday">
+                    <div class="intraday-corner">
+                      <img src="Images/intraday/intraday-corner.svg" class="Group-26869-intraday">
+                    </div>
+                    <div class="Rectangle-intraday">
+                      <div>
+                        <img src="Images/intraday.svg" class="Group-25616" />
+                      </div>
+                      <div class="intraday-volati-wrapper">
+                        <span class="Intraday-Volatility">
+                          Intraday Volatility
+                        </span>
+                      </div>
+
+                      <div>
+                        <span class="by-ICDA-Tech"> by ICDA Tech </span>
+                      </div>
+                      <div class="min-in-intraday-wrapper">
+                        <div>
+                          <span class="Min-Investment"> Min Investment </span>
+                        </div>
+                        <div>
+                          <span class="span12"> ₹ 20,000 </span>
+                        </div>
+                      </div>
+                      <div class="roi-intraday-wrapper">
+                        <div>
+                          <span class="ROI-intraday"> ROI </span>
+                        </div>
+
+                        <span>
+                          <span class="span12"> 12.00% </span>
+                        </span>
+                      </div>
+                      <div class="intraday-hr-wrapper">
+                        <hr />
+                      </div>
+                      <div>
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" /><img
+                          src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/intraday/halfstar.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                      </div>
+                      <div class="k-Ratings-intraday-wrapper">
+                        <span class="k-Ratings-intraday"> 2k Ratings </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+                  <div class="Rectangle-6324-invester">
+                    <div class="investor-corner">
+                      <img src="Images/intraday/investor.svg" class="Group-26869-investor">
+                    </div>
+                    <div class="Rectangle-6490-invester">
+                      <div><img src="Images/investigator.svg" class="Group-25616-investigator"></div>
+                      <div>
+                        <div class="Long-term-Investor">
+                          Long term
+                          Investor
+                        </div>
+                      </div>
+                      <div class="by-ICDA-Tech">
+                        by ICDA Tech
+                      </div>
+                      <div class="min-investigator-wrapper">
+                        <div class="Min-Investment">
+                          Min Investment
+                        </div>
+                        <div class="tweel">
+                          ₹ 1,20,000
+                        </div>
+                      </div>
+
+                      <div class="roi-investigator-wrapper">
+                        <div class="ROI">
+                          ROI
+                        </div>
+                        <div class="thurti2">
+                          32.00%
+                        </div>
+                      </div>
+                      <div class="hr-investment">
+                        <hr>
+                      </div>
+                      <div>
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/white-star.svg" class="star_rate_black_24dp-accuracy" />
+                        <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                      </div>
+                      <div class="-Ratings-investigator">
+                        272 Ratings
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="Plug-Play-Services"> Plug & Play Services </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+              <div class="Rectangle-4731">
+                <div>
+                  <img src="Images/sharpey/sharpey.png" class="Group-25734" />
+                </div>
+                <div class="sharpey-wrapper">
+                  <span class="Sharpey"> Sharpey </span>
+                </div>
+                <div class="by-van-wrapper">
+                  <span class="by-Vancroft-Technologies">
+                    by Vancroft Technologies
+                  </span>
+                </div>
+                <div class="app-wrapper-sharpey">
+                  <span class="APP"> APP </span>
+                </div>
+                <div class="k-Users">1k+ Users</div>
+                <div class="hr-margin">
+                  <hr />
+                </div>
+                <img src="Images/sharpey/star.svg" class="Group-26865" />
+                <span class="-Ratings"> 272 Ratings </span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+              <div class="Rectangle-4731">
+                <div>
+                  <img src="Images/algo/algo.png" class="Group-algoskull" />
+                </div>
+                <div class="algoskull-wrapper">
+                  <span class="AlgoSkull"> AlgoSkull </span>
+                </div>
+                <div>
+                  <span class="by-watch-Technologies-algoskull">
+                    by watch Technologies
+                  </span>
+                </div>
+                <div class="web-warpper">
+                  <span class="WEB"> WEB </span>
+                </div>
+                <div class="-Users-algoskull">100+ Users</div>
+                <div class="hr-algoskull">
+                  <hr />
+                </div>
+                <img src="Images/algo/star.svg" class="Group-26866" />
+                <span class="K-Ratings"> 1K Ratings </span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+              <div class="Rectangle-4731">
+                <div>
+                  <img src="Images/algonix/algonix.png" class="Group-25738" />
+                </div>
+                <div class="algonix-heading">
+                  <span class="Algonix"> Algonix </span>
+                </div>
+                <div>
+                  <span class="by-signora-info"> by signora info </span>
+                </div>
+                <div class="sdk-div-wrapper">
+                  <span class="SDK"> SDK </span>
+                </div>
+                <div class="-Users-algonix">200+ Users</div>
+                <div class="hr-algoskull">
                   <hr />
                 </div>
                 <div>
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
+                  <img src="Images/algonix/star.svg" class="Group-26867" />
                 </div>
-                <div class="two-ratings-wrapper-accuracy">
-                  <span class="-Ratings"> 200 Ratings </span>
+                <div class="two-ratings-wrapper">
+                  <span class="-Ratings-algonix"> 2 Ratings </span>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-6324-uncorilated">
-
-              <div class="corner-div">
-                <img src="Images/uncorelated/corner.svg" class="Group-26869">
-
-              </div>
-              <div class="Rectangle-uncorrilated-analysys">
+            <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
+              <div class="Rectangle-4731">
                 <div>
-                  <img src="Images/uncorelated/uncorelated-icon.svg" class="Group-25616" />
-                  <div class="uncorrilated-wrapper">
-                    <span class="The-Uncorrelated-Analysis">
-                      The Uncorrelated
-                      <div class="The-Uncorrelated-Analysis"></div>
-                      Analysis
-                    </span>
-                  </div>
-                  <div>
-                    <span class="by-watch-Technologies-unco">
-                      by watch Technologies
-                    </span>
-                  </div>
-                  <div class="uncorelated-investment-wrapper">
-                    <div>
-                      <span class="Min-Investment"> Min Investment </span>
-                    </div>
-                    <div>
-                      <span class="span36"> ₹ 12,000 </span>
-                    </div>
-                  </div>
-
-                  <div class="uncorilated-roi-wrapper">
-                    <span>
-                      <span class="ROI-uncorelated"> ROI </span>
-                    </span>
-                    <div>
-                      <span class="span36"> 36.00% </span>
-                    </div>
-                  </div>
-                  <div class="uncorelated-hr-wrapper">
-                    <hr />
-                  </div>
-                  <div>
-                    <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                    <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                    <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                    <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                    <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  </div>
-                  <div class="rating27-wrapper">
-                    <span class="-Ratings27"> 27 Ratings </span>
-                  </div>
+                  <img src="Images/zfix/zfix.png" class="Group-25740" />
                 </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-6324-intraday">
-              <div class="intraday-corner">
-                <img src="Images/intraday/intraday-corner.svg" class="Group-26869-intraday">
-              </div>
-              <div class="Rectangle-intraday">
-                <div>
-                  <img src="Images/intraday.svg" class="Group-25616" />
+                <div class="zfix-heading-wrapper">
+                  <span class="ZFix-Strat"> ZFix Strat </span>
                 </div>
-                <div class="intraday-volati-wrapper">
-                  <span class="Intraday-Volatility">
-                    Intraday Volatility
-                  </span>
-                </div>
-
-                <div>
+                <div class="by-icda-tech-sub">
                   <span class="by-ICDA-Tech"> by ICDA Tech </span>
                 </div>
-                <div class="min-in-intraday-wrapper">
-                  <div>
-                    <span class="Min-Investment"> Min Investment </span>
-                  </div>
-                  <div>
-                    <span class="span12"> ₹ 20,000 </span>
-                  </div>
+                <div class="app-zfix-wrapper">
+                  <span class="APP-zfix"> APP </span>
                 </div>
-                <div class="roi-intraday-wrapper">
-                  <div>
-                    <span class="ROI-intraday"> ROI </span>
-                  </div>
-
-                  <span>
-                    <span class="span12"> 12.00% </span>
-                  </span>
-                </div>
-                <div class="intraday-hr-wrapper">
+                <div class="-Users-algonix">1k+ Users</div>
+                <div class="hr-algoskull">
                   <hr />
                 </div>
+                <img src="Images/zfix/star.svg" class="Group-26868" />
+                <div class="two-ratings-wrapper">
+                  <span class="-Ratings-algonix"> 20 Ratings </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="How-to-use-our-APIs"> How to use our APIs </div>
+
+
+          <div class="To-walk-you-through-every-step-of-the-process">
+            To walk you through every step of the process.
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-12">
+              <div class="Rectangle-6502">
                 <div>
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" /><img
-                    src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/intraday/halfstar.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
-                </div>
-                <div class="k-Ratings-intraday-wrapper">
-                  <span class="k-Ratings-intraday"> 2k Ratings </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-6324-invester">
-              <div class="investor-corner">
-                <img src="Images/intraday/investor.svg" class="Group-26869-investor">
-              </div>
-              <div class="Rectangle-6490-invester">
-                <div><img src="Images/investigator.svg" class="Group-25616-investigator"></div>
-                <div>
-                  <div class="Long-term-Investor">
-                    Long term
-                    Investor
-                  </div>
-                </div>
-                <div class="by-ICDA-Tech">
-                  by ICDA Tech
-                </div>
-                <div class="min-investigator-wrapper">
-                  <div class="Min-Investment">
-                    Min Investment
-                  </div>
-                  <div class="tweel">
-                    ₹ 1,20,000
-                  </div>
+                  <span class="Choosing-the-Right-API-Kits">
+                    Choosing the Right
+                    <div class="api-kits-div">API Kits</div>
+                  </span>
                 </div>
 
-                <div class="roi-investigator-wrapper">
-                  <div class="ROI">
-                    ROI
-                  </div>
-                  <div class="thurti2">
-                    32.00%
-                  </div>
-                </div>
-                <div class="hr-investment">
-                  <hr>
-                </div>
-                <div>
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/white-star.svg" class="star_rate_black_24dp-accuracy" />
-                  <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
-                </div>
-                <div class="-Ratings-investigator">
-                  272 Ratings
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-</div>
-<div class="item ">
-
-  <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-    <div class="Rectangle-6324">
-      <div class="Rectangle-6490">
-        <div class="accuracy--image-wrapper">
-          <img src="Images/high-accuracy/accuracy1.svg" class="Group-26870" />
-        </div>
-        <div>
-          <span class="High-Accuracy-Trends">
-            High Accuracy
-            <div class="High-Accuracy-Trends">Trends</div>
-          </span>
-        </div>
-        <div class="by-empire-wrappr">
-          <span class="by-Empire-pvt-ltd"> by Empire pvt ltd </span>
-        </div>
-        <div class="min-investment-wrapper">
-          <div>
-            <span class="Min-Investment"> Min Investment </span>
-          </div>
-          <div>
-            <span class="span35"> ₹ 15,000 </span>
-          </div>
-        </div>
-        <div class="roi-wrapper">
-          <div>
-            <span class="ROI"> ROI </span>
-          </div>
-
-          <div>
-            <span class="span35"> 35.00% </span>
-          </div>
-        </div>
-        <div class="high-accuracy-hr">
-          <hr />
-        </div>
-        <div>
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
-        </div>
-        <div class="two-ratings-wrapper-accuracy">
-          <span class="-Ratings"> 200 Ratings </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-    <div class="Rectangle-6324-uncorilated">
-
-      <div class="corner-div">
-        <img src="Images/uncorelated/corner.svg" class="Group-26869">
-
-      </div>
-      <div class="Rectangle-uncorrilated-analysys">
-        <div>
-          <img src="Images/uncorelated/uncorelated-icon.svg" class="Group-25616" />
-          <div class="uncorrilated-wrapper">
-            <span class="The-Uncorrelated-Analysis">
-              The Uncorrelated
-              <div class="The-Uncorrelated-Analysis"></div>
-              Analysis
-            </span>
-          </div>
-          <div>
-            <span class="by-watch-Technologies-unco">
-              by watch Technologies
-            </span>
-          </div>
-          <div class="uncorelated-investment-wrapper">
-            <div>
-              <span class="Min-Investment"> Min Investment </span>
-            </div>
-            <div>
-              <span class="span36"> ₹ 12,000 </span>
-            </div>
-          </div>
-
-          <div class="uncorilated-roi-wrapper">
-            <span>
-              <span class="ROI-uncorelated"> ROI </span>
-            </span>
-            <div>
-              <span class="span36"> 36.00% </span>
-            </div>
-          </div>
-          <div class="uncorelated-hr-wrapper">
-            <hr />
-          </div>
-          <div>
-            <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-            <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-            <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-            <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-            <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          </div>
-          <div class="rating27-wrapper">
-            <span class="-Ratings27"> 27 Ratings </span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-    <div class="Rectangle-6324-intraday">
-      <div class="intraday-corner">
-        <img src="Images/intraday/intraday-corner.svg" class="Group-26869-intraday">
-      </div>
-      <div class="Rectangle-intraday">
-        <div>
-          <img src="Images/intraday.svg" class="Group-25616" />
-        </div>
-        <div class="intraday-volati-wrapper">
-          <span class="Intraday-Volatility">
-            Intraday Volatility
-          </span>
-        </div>
-
-        <div>
-          <span class="by-ICDA-Tech"> by ICDA Tech </span>
-        </div>
-        <div class="min-in-intraday-wrapper">
-          <div>
-            <span class="Min-Investment"> Min Investment </span>
-          </div>
-          <div>
-            <span class="span12"> ₹ 20,000 </span>
-          </div>
-        </div>
-        <div class="roi-intraday-wrapper">
-          <div>
-            <span class="ROI-intraday"> ROI </span>
-          </div>
-
-          <span>
-            <span class="span12"> 12.00% </span>
-          </span>
-        </div>
-        <div class="intraday-hr-wrapper">
-          <hr />
-        </div>
-        <div>
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" /><img
-            src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/intraday/halfstar.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
-        </div>
-        <div class="k-Ratings-intraday-wrapper">
-          <span class="k-Ratings-intraday"> 2k Ratings </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-    <div class="Rectangle-6324-invester">
-      <div class="investor-corner">
-        <img src="Images/intraday/investor.svg" class="Group-26869-investor">
-      </div>
-      <div class="Rectangle-6490-invester">
-        <div><img src="Images/investigator.svg" class="Group-25616-investigator"></div>
-        <div>
-          <div class="Long-term-Investor">
-            Long term
-            Investor
-          </div>
-        </div>
-        <div class="by-ICDA-Tech">
-          by ICDA Tech
-        </div>
-        <div class="min-investigator-wrapper">
-          <div class="Min-Investment">
-            Min Investment
-          </div>
-          <div class="tweel">
-            ₹ 1,20,000
-          </div>
-        </div>
-
-        <div class="roi-investigator-wrapper">
-          <div class="ROI">
-            ROI
-          </div>
-          <div class="thurti2">
-            32.00%
-          </div>
-        </div>
-        <div class="hr-investment">
-          <hr>
-        </div>
-        <div>
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startyellow.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/white-star.svg" class="star_rate_black_24dp-accuracy" />
-          <img src="Images/high-accuracy/startwhite.svg" class="star_rate_black_24dp-accuracy" />
-        </div>
-        <div class="-Ratings-investigator">
-          272 Ratings
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-
-</div>
-        </div>
-
-        <div class="Plug-Play-Services"> Plug & Play Services </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-4731">
-              <div>
-                <img src="Images/sharpey/sharpey.png" class="Group-25734" />
-              </div>
-              <div class="sharpey-wrapper">
-                <span class="Sharpey"> Sharpey </span>
-              </div>
-              <div class="by-van-wrapper">
-                <span class="by-Vancroft-Technologies">
-                  by Vancroft Technologies
-                </span>
-              </div>
-              <div class="app-wrapper-sharpey">
-                <span class="APP"> APP </span>
-              </div>
-              <div class="k-Users">1k+ Users</div>
-              <div class="hr-margin">
-                <hr />
-              </div>
-              <img src="Images/sharpey/star.svg" class="Group-26865" />
-              <span class="-Ratings"> 272 Ratings </span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-4731">
-              <div>
-                <img src="Images/algo/algo.png" class="Group-algoskull" />
-              </div>
-              <div class="algoskull-wrapper">
-                <span class="AlgoSkull"> AlgoSkull </span>
-              </div>
-              <div>
-                <span class="by-watch-Technologies-algoskull">
-                  by watch Technologies
-                </span>
-              </div>
-              <div class="web-warpper">
-                <span class="WEB"> WEB </span>
-              </div>
-              <div class="-Users-algoskull">100+ Users</div>
-              <div class="hr-algoskull">
-                <hr />
-              </div>
-              <img src="Images/algo/star.svg" class="Group-26866" />
-              <span class="K-Ratings"> 1K Ratings </span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-4731">
-              <div>
-                <img src="Images/algonix/algonix.png" class="Group-25738" />
-              </div>
-              <div class="algonix-heading">
-                <span class="Algonix"> Algonix </span>
-              </div>
-              <div>
-                <span class="by-signora-info"> by signora info </span>
-              </div>
-              <div class="sdk-div-wrapper">
-                <span class="SDK"> SDK </span>
-              </div>
-              <div class="-Users-algonix">200+ Users</div>
-              <div class="hr-algoskull">
-                <hr />
-              </div>
-              <div>
-                <img src="Images/algonix/star.svg" class="Group-26867" />
-              </div>
-              <div class="two-ratings-wrapper">
-                <span class="-Ratings-algonix"> 2 Ratings </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 colxs-12">
-            <div class="Rectangle-4731">
-              <div>
-                <img src="Images/zfix/zfix.png" class="Group-25740" />
-              </div>
-              <div class="zfix-heading-wrapper">
-                <span class="ZFix-Strat"> ZFix Strat </span>
-              </div>
-              <div class="by-icda-tech-sub">
-                <span class="by-ICDA-Tech"> by ICDA Tech </span>
-              </div>
-              <div class="app-zfix-wrapper">
-                <span class="APP-zfix"> APP </span>
-              </div>
-              <div class="-Users-algonix">1k+ Users</div>
-              <div class="hr-algoskull">
-                <hr />
-              </div>
-              <img src="Images/zfix/star.svg" class="Group-26868" />
-              <div class="two-ratings-wrapper">
-                <span class="-Ratings-algonix"> 20 Ratings </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="How-to-use-our-APIs"> How to use our APIs </div>
-
-
-        <div class="To-walk-you-through-every-step-of-the-process">
-          To walk you through every step of the process.
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-3 col-xs-12">
-            <div class="Rectangle-6502">
-              <div>
-                <span class="Choosing-the-Right-API-Kits">
-                  Choosing the Right
-                  <div class="api-kits-div">API Kits</div>
-                </span>
-              </div>
-
-              <span>
-                <img src="Images/rightapikys/righttick.svg" class="Group-26408" />
-              </span>
-              <div class="number-wrapper">
                 <span>
-                  <img src="Images/rightapikys/one.png" class="Group-26409" />
+                  <img src="Images/rightapikys/righttick.svg" class="Group-26408" />
                 </span>
-                <span class="number-two">
-                  <img src="Images/rightapikys/two.png" class="Group-25694" />
-                </span>
-                <span>
-                  <img src="Images/rightapikys/three.png" class="Group-25694" />
-                </span>
-              </div>
-              <div>
-                <div>
-                  <div class="Identify-Your-Need">Identify</div>
-
-                  <div class="Identify-Your-Need">Your Need</div>
-                </div>
-
-                <div>
-                  <div class="Explore-Our-API-Kits">Explore</div>
-                  <div class="Our-API-Kits">Our API Kits</div>
+                <div class="number-wrapper">
+                  <span>
+                    <img src="Images/rightapikys/one.png" class="Group-26409" />
+                  </span>
+                  <span class="number-two">
+                    <img src="Images/rightapikys/two.png" class="Group-25694" />
+                  </span>
+                  <span>
+                    <img src="Images/rightapikys/three.png" class="Group-25694" />
+                  </span>
                 </div>
                 <div>
-                  <div class="Generate-Key-Start-using">Generate</div>
-                  <div class="and-Start-using">& Start using</div>
+                  <div>
+                    <div class="Identify-Your-Need">Identify</div>
+
+                    <div class="Identify-Your-Need">Your Need</div>
+                  </div>
+
+                  <div>
+                    <div class="Explore-Our-API-Kits">Explore</div>
+                    <div class="Our-API-Kits">Our API Kits</div>
+                  </div>
+                  <div>
+                    <div class="Generate-Key-Start-using">Generate</div>
+                    <div class="and-Start-using">& Start using</div>
+                  </div>
                 </div>
-              </div>
 
-              <div class="blur-racktangle">
-                <span class="Which-kit-is-right-for-me">
-                  Which kit is right for me?
-                </span>
+                <div class="blur-racktangle">
+                  <span class="Which-kit-is-right-for-me">
+                    Which kit is right for me?
+                  </span>
 
-                <div class="Explore-right-api"> Explore </div>
+                  <div class="Explore-right-api"> Explore </div>
 
-                <img src="Images/Start-bulding/arrow.svg" class="explore-button-arrow-bottom" />
+                  <img src="Images/Start-bulding/arrow.svg" class="explore-button-arrow-bottom" />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-            <div class="Rectangle-6013">
-              <div>
-                <span class="Generating-API-Keys">
-                  Generating
-                  <div class="api-keys-div">API Keys</div>
-                </span>
-              </div>
-              <div class="learn-fitness-wrapper">
-                <div class="Learn-Fintech-Development-at-your-own-pace">
-                  Learn Fintech Development
-                  <div>at your own pace.</div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <div class="Rectangle-6013">
+                <div>
+                  <span class="Generating-API-Keys">
+                    Generating
+                    <div class="api-keys-div">API Keys</div>
+                  </span>
+                </div>
+                <div class="learn-fitness-wrapper">
+                  <div class="Learn-Fintech-Development-at-your-own-pace">
+                    Learn Fintech Development
+                    <div>at your own pace.</div>
+                  </div>
+                </div>
+                <div>
+                  <img src="Images/generateapi/generateapi.svg" class="Group-25688" />
+                </div>
+
+                <div class="Rectangle-6014-generate">
+                  <div class="How-to-Generate"> How to Generate </div>
+
+
+                  <img src="Images/Start-bulding/arrow.svg" class="how-to-generate-arrow" />
                 </div>
               </div>
-              <div>
-                <img src="Images/generateapi/generateapi.svg" class="Group-25688" />
-              </div>
-
-              <div class="Rectangle-6014-generate">
-                <div class="How-to-Generate"> How to Generate </div>
-
-
-                <img src="Images/Start-bulding/arrow.svg" class="how-to-generate-arrow" />
-              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-            <div class="main-learn-wrapper-footer">
-              <div>
-                <img src="Images/laptop.png"
-     srcset="img/mask-group-14361@2x.png 2x,
-             img/mask-group-14361@3x.png 3x"
-     class="Mask-Group-14361">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <div class="main-learn-wrapper-footer">
+                <div>
+                  <img src="Images/laptop.png" 
+              class="Mask-Group-14361">
 
-              </div>
-              
+                </div>
+
                 <div class="Learn"> Learn </div>
 
-            
-              <div class="Learn-Fintech-Development-at-your-own-pace-footer">
-                Learn Fintech Development at your own pace.
-              </div>
 
-              <div>
-                <img src="Images/Nova-learn/novalearnbutton.svg" class="Group-21681-footer-lean">
-
-              </div>
-              <div class="Rectangle-learn-footer">
-                <div class="Learn-Algo-Trading">
-                  Learn Algo Trading
+                <div class="Learn-Fintech-Development-at-your-own-pace-footer">
+                  Learn Fintech Development at your own pace.
                 </div>
-                <img src="Images/Start-bulding/arrow.svg" class="learn-algo-arrow" />
-              </div>
 
+                <div>
+                  <img src="Images/Nova-learn/novalearnbutton.svg" class="Group-21681-footer-lean">
+
+                </div>
+                <div class="Rectangle-learn-footer">
+                  <div class="Learn-Algo-Trading">
+                    Learn Algo Trading
+                  </div>
+                  <img src="Images/Start-bulding/arrow.svg" class="learn-algo-arrow" />
+                </div>
+
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
+
+
+
+
     </div>
- 
-  
-  
-    
-  </div>
   </div>
   <div class="row">
     <div class="Rectangle-5812">
@@ -1368,14 +1419,14 @@
         <div class="footer-image-wrapper">
           <div>
             <img src="Images/footer.png" class="Group-19665">
-  
+
           </div>
-  
+
           <div class="-All-Rights-Reserved">
             IIFL NovaTM 2021. All Rights Reserved
           </div>
         </div>
-       
+
 
 
       </div>
@@ -1406,14 +1457,14 @@
               IIFL Incubator
             </div>
           </div>
-  
+
           <div>
             <div class="Nova-Learn-footer">
               Nova Learn
             </div>
           </div>
         </div>
-       
+
       </div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <div class="enterprices-footer">
@@ -1444,40 +1495,68 @@
             Privacy Policy
           </div>
         </div>
-        
+
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <span class="AVENUES">
-          AVENUES
-        </span>
-        <div class="icon-wrapper-github">
-          <i class="fa-brands fa-github github-icon"></i>
-          <div class="slack-wrapper">
-            <i class="fa-brands fa-slack slack-icon"></i>
+        <div class="avenu-footer-wrapper">
+          <span class="AVENUES">
+            AVENUES
+          </span>
+          <div class="icon-wrapper-github">
+            <i class="fa-brands fa-github github-icon"></i>
+            <div class="slack-wrapper">
+              <i class="fa-brands fa-slack slack-icon"></i>
+            </div>
+            <div class="discord-wrapper">
+              <i class="fa-brands fa-discord discord-icon"></i>
+            </div>
+  
           </div>
-          <div class="discord-wrapper">
-            <i class="fa-brands fa-discord discord-icon"></i>
+          <div class="icon-wrapper-github">
+            <i class="fa-brands fa-facebook facebook-icon"></i>
+            <div class="twitter-wrapper">
+              <i class="fa-brands fa-twitter twitter-icon"></i>
+  
+            </div>
+            <div class="overflow-wrapper">
+              <i class="fab fa-stack-overflow overflow-icon"></i>
+  
+            </div>
           </div>
-
+  
         </div>
-        <div class="icon-wrapper-github">
-          <i class="fa-brands fa-facebook facebook-icon"></i>
-          <div class="twitter-wrapper">
-            <i class="fa-brands fa-twitter twitter-icon"></i>
-
-          </div>
-          <div class="overflow-wrapper">
-            <i class="fab fa-stack-overflow overflow-icon"></i>
-
-          </div>
-        </div>
-
+      
       </div>
 
 
     </div>
   </div>
   </div>
+  <script>
+    var button = document.getElementById('hamburger-menu'),
+    span = button.getElementsByTagName('span')[0];
+
+button.onclick =  function() {
+  span.classList.toggle('hamburger-menu-button-close');
+};
+
+$('#hamburger-menu').on('click', toggleOnClass);
+
+function toggleOnClass(event) {
+  var toggleElementId = '#' + $(this).data('toggle'),
+  element = $(toggleElementId);
+
+  element.toggleClass('on');
+
+}
+
+// close hamburger menu after click a
+$( '.menu li a' ).on("click", function(){
+  $('#hamburger-menu').click();
+});
+
+
+  </script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 img.Group-21628 {
   width: 128px;
   height: 32px;
-  margin: 28px 26px 28px 0;
+  margin: -2px 26px 28px 0;
   object-fit: contain;
 }
 .API-Kits {
@@ -431,7 +431,7 @@ img.code_black_24dp {
 }
 img.Group-21627 {
  
-  margin: 32px 24px 8px -85px;
+  margin: 8px 24px 8px -85px;
 }
 .login-div{
   margin: -30px 0 0 700px;
@@ -1265,8 +1265,9 @@ img.east_black_24dp {
   letter-spacing: normal;
   text-align: left;
   color: #fff;
-  margin: -250px 0 0 23px;
+  margin: -409px 0 0 23px;
 }
+
 .right-arrow-div{
   margin: -58px 0 0 -80px;
 }
@@ -3576,6 +3577,119 @@ img.Mask-Group-14361 {
   padding: 36px 79px 107.3px 30px;
   object-fit: contain;
 }
+/* hamberger menu */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+a {
+  color: #ff7013;
+  text-decoration: none;
+}
+.hamburger-menu-button {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  display: block;
+  position: relative;
+  margin-top: 35px;
+  z-index: 100;
+  background: #2980b9;
+  border: 5px solid white;
+  box-sizing: content-box;
+  border-radius: 50%;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+}
+.hamburger-menu-button-open {
+  top: 50%;
+  margin-top: -1px;
+  left: 50%;
+  margin-left: -12px;
+}
+.hamburger-menu-button-open, 
+.hamburger-menu-button-open::before, 
+.hamburger-menu-button-open::after {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.hamburger-menu-button-open::before, 
+.hamburger-menu-button-open::after {
+  left: 0;
+  content: "";
+}
+.hamburger-menu-button-open::before {
+  top: 6px;
+}
+.hamburger-menu-button-open::after {
+  bottom: 6px;
+}
+.hamburger-menu-button-close {
+  background: transparent;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.hamburger-menu-button-close::before {
+  -webkit-transform: translateY(-6px) rotate(45deg);
+          transform: translateY(-6px) rotate(45deg);
+}
+.hamburger-menu-button-close::after {
+  -webkit-transform: translateY(6px) rotate(-45deg);
+          transform: translateY(6px) rotate(-45deg);
+}
+.ham-menu {
+  position: absolute;
+  top: 42px;
+  left: 48px;
+  margin: auto;
+  max-width: 570px;
+  overflow: hidden;
+}
+.ham-menu ul {
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+  background-color:white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.ham-menu.on ul {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+.ham-menu ul {
+  font-size: 0;
+}
+.ham-menu ul li {
+  display: inline-block;
+}
+.ham-menu ul li:first-child .ham-menu ul li a {
+  padding-left: 30px;
+}
+.ham-menu ul li a {
+  padding: 15px;
+  display: block;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-size: 13px;
+}
+.ham-menu ul li.active a, .ham-menu ul li a:hover {
+  background-color: #2980b9;
+  color: #fff !important;
+} 
+
+
 
 /* responsive design */
 @media only screen and (min-width: 768px) {
@@ -3602,9 +3716,147 @@ width: 10px;
   .Build-the-Future-of-Wealth-Technology{
     width: 20px;
       }
+      .logo-class{
+        margin-top: 235px;
+      }
+      img.Group-21628{
+        margin: -85px ​0 0 0;
+      }
+      .Rectangle-5803{
+        margin-top: 192px;
+      }
+      img.cable_white_24dp-mobile{
+        margin: -8px 0 0 11px;
+      }
+      .Dev-Docs-mobile{
+        width: 65px;
+  height: 20px;
+  margin: 14px 45px 14px 12px;
+  opacity: 0.65;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+      }
+      .Forums-mobile{
+        width: 65px;
+        height: 20px;
+        margin: 14px 45px 14px 12px;
+        opacity: 0.65;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+      }
+      .Guides-mobile{
+        width: 65px;
+        height: 20px;
+        margin: 14px 45px 14px 12px;
+        opacity: 0.65;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+      }
+      .NOVA-STORE-mobile{
+        width: 88px;
+        height: 20px;
+        margin: 36px 58px 14px 0;
+        opacity: 0.9;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.79;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f4ebf;
+      }
+      .Shop-mobile{
+        width: 65px;
+        height: 20px;
+        margin: -20px 45px 14px 49px;
+        opacity: 0.65;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+      }
+      .shop-icon-mobile{
+        margin: 0 0 0 15px;
+      }
+      .build-earn-mobile-icon{
+        margin: 0 0 0 15px;
+      }
+      .row-div-wrapper{
+margin-top: -770px;
+      }
+      .Build-Earn-mobile{
+        width: 65px;
+        height: 20px;
+        margin: 14px 45px 14px 12px;
+        opacity: 0.65;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+      }
+      img.description_black_24dp-1-mobile{
+            margin-left: 13px;
+      }
+      .forum_black_24dp-mobile{
+margin: 0 0 0 12px;
+      }
+      .integration_instructions_black_24dp-mobile{
+margin: 0 0 0 12px;
+      }
+      .shop-mobile{
+
+      }
+      .dev-mobile{
+        margin-top: 5px;
+      }
+      .api-kits-mobile{
+        margin-top: -9px;
+      }
       .Rectangle-5802{
         margin: 36px 0 0 -23px;
     width: 109%;
+      }
+      .start-learning-burron{
+        margin-left: 406px;
+      }
+      .Start-Learning{
+        margin-left: 296px;
+      }
+      .Rectangle-6514{
+        margin-top: 162px;
       }
       .Rectangle-talent{
         margin: -26px 0 0 375px;
@@ -3619,10 +3871,22 @@ width: 10px;
         margin: 20px 0 0 0;
       }
       img.Mask-Group-132{
-        margin: 10px;
+        width: 105%;
+    height: auto;
+    margin: -5px 0 0 -27px;
+
       }
       .Rectangle-5799{
         margin: 0;
+        width: 100%;
+    margin-top: 29px;
+
+      }
+      .Rectangle-5789 {
+        margin-top: 25px;
+      }
+      .NOVA-Learn-feature{
+
       }
       img.bulb1{
         margin: -87px 0 0 422px;
@@ -3658,9 +3922,46 @@ width: 40px;
         margin-left: 400px;
       }
       .Rectangle-uncorrilated-analysys{
-        width: 171%;
+        width: 167%;
+        margin-left: -16px;
+    
+      }
+      .carousel-inner{
+overflow: visible;
+      }
+      .Rectangle-6324-invester{
+
+      }
+      img.Mask-Group-14361{
+        width: 358%;
+    height: 556px;
+    margin-left: -681px;
+
+      }
+      .Rectangle-learn-footer{
+        margin-top: 215px;
+      }
+      .Learn{
+margin-top: -523px;
+      }
+      .footer-image-wrapper{
+        margin: 0;
+      }
+      .footer-module-wrapper{
+        margin: -50px 0 0 273px;
+      }
+      .enterprices-footer{
+        margin: 50px 0 0 -63px;
+
+      }
+      .avenu-footer-wrapper{
+        margin-left: 164px;
+        margin-top: -95px;
       }
       .Rectangle-6324-intraday{
+
+      }
+      img.Mask-Group-14436{
 
       }
       .intraday-corner{
@@ -3714,6 +4015,85 @@ width: 40px;
         float: right;
         margin: 11px -142px 0 0;
       }
+      .Rectangle-4897{
+        
+      }
+      .search-input{
+        margin: 0;
+      }
+      .login-div{
+        margin: -163px 0 0 192px;
+      }
+      .Rectangle-5749{
+        margin: -28px 222px;
+      }
+      .sidebar-wrapper{
+        margin-top: 115px;
+        visibility: hidden;
+      }
+      img.Group-23238{
+        margin-left: 420px;
+      }
+      .Rectangle-5781{
+        width: 135%;
+      }
+      .Rectangle-5782{
+        margin-left: 350px;
+      }
+      .Algo-Trading-build{
+        margin: -18px 0 0 54px;
+        width: 15%;
+        font-size: 11px;
+        padding: 4px 0 0 4px;
+    
+      }
+      .Algo-Enterprise{
+        margin: -20px 0 0 140px;
+    width: 17%;
+    font-size: 11px;
+    padding: 4px 0 0 4px;
+      }
+      .Fintech-Platform{
+        margin:-20px 0 0 236px;
+        width: 17%;
+        font-size: 11px;
+        padding: 4px 0 0 4px;
+      }
+      .Fintech-Enterprise{
+        margin: -20px 0 0 332px;
+        width: 18%;
+        font-size: 11px;
+        padding: 4px 0 0 4px;
+      }
+      .main-arrow-glypgicon{
+        margin: -14px 0 0 416px;
+      }
+      .leftgly-gly{
+
+      }
+      .right-gly{
+
+      }
+      .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+        position: absolute;
+    
+    margin-top: -10px;
+    margin-left: 77px;
+    color: #645858;
+    margin: -12px  -49px 0 -26px;
+      }
+      .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+        margin: -12px  -49px 0 -26px;
+      }
+      .Rectangle-6324{
+        margin: 0;
+    width: 100%;
+      }
+      .Rectangle-6324-uncorilated{
+        margin-top: 185px;
+    width: 100%;
+      }
+      
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -3728,9 +4108,56 @@ width: 40px;
     margin:6px 0 0 -23px;
     width: 128%;
   }
+  .main-div-algo-gly{
+
+  }
+  .Rectangle-5749{
+    
+    margin-left: 742px;
+    margin-top: -42px;
+  }
+  .login-div{
+    margin: -32px 0 0 713px;
+  }
+  .Rectangle-6324-uncorilated{
+    margin-top: 44px;
+  }
+  .Rectangle-6324{
+    margin-top: 44px;
+  }
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    font-size: 17px;
+    margin-right: 1px;
+  }
+  .hamburger-menu-button{
+    visibility: hidden;
+  }
+  .logo-class{
+    margin-top: -70px;
+  }
+  .row-div-wrapper{
+    margin-top: 24px;
+  }
+  .sidebar-wrapper{
+    visibility: visible;
+    margin-top: 0px;
+  }
+  img.Group-23238{
+    margin-left: 331px;
+  }
+  .Get-Started{
+
+  }
+  .Rectangle-5782{
+    margin-left: 251px;
+  }
   .How-to-Generate{
     width: 178%;
   }
+  .Rectangle-5781{
+    width: 144%;
+  }
+  
   .Rectangle-6324-intraday{
     margin-left: 12px;
   }
@@ -3756,10 +4183,10 @@ margin: -24px 0 0 0px;
         margin:-63px 0 0 127px;
       }
       .Rectangle-6490{
-        width: 126%;
+        width: 129%;
       }
       .Rectangle-uncorrilated-analysys{
-        width: 233px;
+        width: 225px;
         margin: -48 0 0 -19px;
       }
       .corner-div{
@@ -3769,7 +4196,32 @@ margin: -24px 0 0 0px;
         margin-left: 80px;
       }
       .Rectangle-intraday{
-        width: 197%;
+        width: 192%;
+      }
+      img.Mask-Group-14361{
+        width: 151%;
+    margin: -163px 0 0 -31px
+      }
+      .Rectangle-learn-footer{
+        margin-top: 30px;
+      }
+      .footer-image-wrapper{
+        margin: 0 0 0 88px;
+      }
+      .footer-module-wrapper{
+        margin: 0 0 0 100px;
+      }
+      .enterprices-footer{
+        margin: 0 0 0 53px;
+      }
+      .avenu-footer-wrapper{
+        margin: 0;
+      }
+      .Learn{
+        margin-top: -388px;
+      }
+      .search-input{
+        margin: 0 0 0 -96px;
       }
       .investor-corner{
         margin-left: 90px;
@@ -3779,13 +4231,30 @@ margin: -24px 0 0 0px;
     height: 228px;
       }
       img.Mask-Group-132{
-        margin: -79px 0 0 -28px;
+        margin: -4px 0 0 -28px;
+    width: 114%;
       }
       .Rectangle-5803{
-        margin-top: 60px;
+        margin-top: 35px;
+      }
+      .Start-Learning{
+margin-left: -25px;
+      }
+      .Rectangle-6514{
+margin-top: 10px;
+      }
+      .start-learning-burron{
+        margin-left: 85px;
+      }
+      
+      .NOVA-Learn-feature{
+        margin-top: -152px;
       }
       .Rectangle-5795{
         width: 106%;
+      }
+      .Rectangle-5789{
+        margin-top: 0px;
       }
       img.explore-button-arrow{
         
@@ -3816,7 +4285,34 @@ margin: -33px 0 0 195px;
         margin: -23px 0 0 277px;
       }
       .Rectangle-5799{
-        margin: 32px 0 0 -50px;
+        margin: 8px 0 0 -50px;
+    width: 118%;
+      }
+      .Algo-Trading-build{
+        margin: -2px 0 0 -12px;
+        width: 69%;
+        font-size: 11px;
+        padding: 4px 0 0 9px;
+      }
+      .Algo-Enterprise{
+        margin: -2px 0 0 -66px;
+        width: 65%;
+        font-size: 11px;
+        padding: 4px 0 0 4px;
+
+      }
+      .Fintech-Platform{
+        margin: -1px 0 0 -113px;
+        width: 74%;
+        font-size: 11px;
+        padding: 4px 0 0 4px;
+
+      }
+      .Fintech-Enterprise{
+        margin: -4px 0 0 -158px;
+        width: 83%;
+        font-size: 11px;
+        padding: 4px 0 0 4px;
       }
       .Rectangle-5800{
         margin-top: 74px;
@@ -3827,6 +4323,7 @@ margin: -33px 0 0 195px;
       .Plug-Play-Services{
         margin-top: 10px;
       }
+      
  }
 @media only screen and (min-width: 600px) {
  
